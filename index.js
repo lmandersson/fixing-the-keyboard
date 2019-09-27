@@ -12,11 +12,19 @@
 
 
 findBrokenKeys = (str1, str2) => {
-  // write your code HERE
+  let result = [];
 
-  ////some code some code
+  if (str1 === str2) return -1;
 
+  for (let i = 0; i < str1.length; i++) {
+    if (str1[i] !== str2[i]) {
+      if (!result.includes(str1[i])) {
+        result.push(str1[i])
+      }
+    }
+  }
 
+  return result;
 };
 
 module.exports = findBrokenKeys;
