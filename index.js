@@ -1,4 +1,4 @@
-// Write a function that returns the broken key(s) of a keyboard. 
+// Write a function that returns the broken key(s) of a keyboard.
 // Broken keys should be ordered by when they first appear in the sentence.
 // Only one broken key per letter should be listed.
 // Letters will all be in lower case.
@@ -7,13 +7,14 @@
 // The function looks like:
 // findBrokenKeys(correct phrase, what you actually typed)
 
-// Examples: 
+// Examples:
 // findBrokenKeys("hakuna matata", "hqkunq mqtqtq") => return ["a"]
 
 
 findBrokenKeys = (str1, str2) => {
   // write your code HERE
 
+  ////some code some code
 
 
 };
